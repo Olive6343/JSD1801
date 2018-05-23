@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;jdbc.properties&apos; to &apos;bookmg_jsp/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;BMS_Maven&apos;&#x0D;&#x0A;- Destination element: &apos;bookmg_jsp/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;jdbc.properties&apos;" description="Copy file" destination="=bookmg_jsp/src\/main\/resources" element1="src/main/resources/jdbc.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1525242749970" units="0" version="1.0"/>
+</session>
