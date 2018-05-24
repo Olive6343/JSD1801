@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 声明一个bean，表示一个杂技演员 -->
+	<bean id="zhangsan" class="com.ldq.springdemo.Juggler">
+		<constructor-arg value="5" />
+	</bean>
+	<bean id="lisi" class="com.ldq.springdemo.Juggler" />
+</beans>
