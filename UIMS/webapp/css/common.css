@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+/*body背景色和字体*/
+body {
+	background: #84bcf1; /*颜色orange*/
+	font-family: Arial; /*字体Arial*/
+}
+
+.container {
+	width: 900px; /*宽900像素*/
+	margin: 0 auto; /*容器居中*/
+	margin-top: 50px; /*子容器顶部与父容器边界距离50像素*/
+	/*border: 1px solid red;/*边框显示为1个像素蓝色实线*/
+}
+
+.container h1 {
+	color: white;
+}
+
+.container h1, p, h2 {
+	text-align: center; /*文本居中*/
+}
+
+.form {
+	width: 500px; /*宽500像素*/
+	margin: 0 auto; /*容器居中*/
+	background: #fff; /*背景色白色*/
+	padding: 10px 0; /*上下内边距*/
+}
+
+form {
+	text-align: center;
+}
+
+.text {
+	width: 200px;
+	height: 30px;
+	margin: 10px 0;
+	font-size:20px;/* 输入框的字体大小调整为20像素 */
+}
+
+.btn {
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	border-style: none;
+	background: #3385ff;
+	color: snow;
+	border-radius: 5px;
+}
+
+p {
+	margin-top: 30px;
+	color: snow;
+}
+
+select {
+	width: 280px;
+	height: 30px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>易唐用户管理系统-注册页面</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+	<!-- html注释，快捷键ctrl+shift+/ -->
+	<!-- body是网页的主体，几乎所有的网页内容都是属于body -->
+	<div class="container">
+		<!-- h1表示1级标题，总共6级 -->
+		<h1>
+			易唐用户管理系统注册页面<sup>v2018</sup>
+		</h1>
+		<div class="form">
+			<h2>快速注册</h2>
+			<hr>
+			<!-- 表单元素 -->
+			<form action="regist" method="post">
+				<select name="authority">
+					<option value="1">普通用户</option>
+					<option value="2">管理员</option>
+				</select> <br> &emsp;&emsp;帐号：<input class="text" type="text"
+					name="loginname"> <br> &emsp;&emsp;密码：<input
+					class="text" type="password" name="password"> <br>
+				确认密码：<input class="text" type="password" name="repass"> <br>
+				&emsp;&emsp;姓名：<input class="text" type="text" name="realname">
+				<br> <input class="btn" type="submit" value="注册"
+					onclick="return regist();"> &emsp;&emsp;<a
+					href="login.html">快速登录</a>
+			</form>
+		</div>
+		<!-- 段落 -->
+		<p>
+			Copyright RAS ADMIN. All Right Reserved. More Templates <a
+				href="http://www.entor.com.cn">易唐科技</a>
+		</p>
+	</div>
+</body>
+<script type="text/javascript" src="js/regist.js"></script>
+</html>
