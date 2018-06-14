@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Test32 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»´®Êý×Ö£¬ÓÃ¶ººÅ¸ô¿ªÃ¿¸öÊý×Ö£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½Ã¶ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½");
 		String input = sc.nextLine();
 		String[] nums = input.split(",");
 		
@@ -14,6 +14,7 @@ public class Test32 {
 		System.out.println(Arrays.toString(nums));
 		int i = 12341;
 		int j = i % 100 / 10;
-		System.out.println(j); 
+		System.out.println(j);
+		
 	}
 }
